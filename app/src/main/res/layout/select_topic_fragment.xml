@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="8dp">
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_common"
+        android:background="@drawable/buttonshape_second"
+        android:drawableLeft="@drawable/star"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_common_text"
+        android:layout_margin="5dp"
+        android:padding="8dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_love"
+        android:background="@drawable/buttonshape_second"
+        android:drawableLeft="@drawable/like"
+        android:layout_below="@+id/btn_common"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_love_text"
+        android:layout_margin="5dp"
+        android:padding="8dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_business"
+        android:background="@drawable/buttonshape_second"
+        android:drawableLeft="@drawable/suitcase"
+        android:layout_below="@+id/btn_love"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_business_text"
+        android:layout_margin="5dp"
+        android:padding="8dp" />
+
+</RelativeLayout>

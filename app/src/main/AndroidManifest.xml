@@ -1,0 +1,42 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.witcher.horoscope">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:name=".SAApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".ui.activities.SelectSunSignActivity"
+            android:label="@string/title_activity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activities.SelectTopicActivity"
+            android:label="@string/title_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.ShowHoroscopeActivity"
+            android:label="@string/title_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.CheckSunSignActivity"
+            android:label="@string/title_activity"
+            android:screenOrientation="portrait" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="efe38006ac657b6f0a921e822a42906b88e64ecb" />
+    </application>
+
+</manifest>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Horoscope</string>
+    <string name="title_activity">Horoscope all day, all night</string>
+    <string name="title_dialog_share">Share</string>
+    <string name="title_dialog_no_internet">No internet access</string>
+
+    <string name="text_menu_check_sun_sign">Find out your zodiac sign</string>
+    <string name="text_menu_share">Share</string>
+
+    <string name="text_share_link">reference to the application</string>
+    <string name="text_no_internet">It is necessary to connect to the interent</string>
+
+    <string name="btn_common_text">Common</string>
+    <string name="btn_love_text">Love</string>
+    <string name="btn_business_text">Business</string>
+
+    <string name="tab_today_text">Today</string>
+    <string name="tab_tomorrow_text">Tomorrow</string>
+    <string name="tab_tomorrow2_text">After tomorrow</string>
+
+    <string name="aries_text">Aries</string>
+    <string name="taurus_text">Taurus</string>
+    <string name="gemini_text">Gemini</string>
+    <string name="cancer_text">Cancer</string>
+    <string name="leo_text">Leo</string>
+    <string name="virgo_text">Virgo</string>
+    <string name="libra_text">Libra</string>
+    <string name="scorpio_text">Scorpio</string>
+    <string name="sagittarius_text">Sagittarius</string>
+    <string name="capricorn_text">Capricorn</string>
+    <string name="aquarius_text">Aquarius</string>
+    <string name="pisces_text">Pisces</string>
+    <string name="sun_sign">Sun sign</string>
+
+
+</resources>

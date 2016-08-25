@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Гороскоп</string>
+    <string name="title_activity">Гороскоп на каждый день</string>
+    <string name="title_dialog_share">Поделиться</string>
+    <string name="title_dialog_no_internet">Нет доступа к сети Интернет</string>
+
+    <string name="text_menu_check_sun_sign">Определить знак зодиака</string>
+    <string name="text_menu_share">Поделиться</string>
+
+    <string name="text_share_link">ссылка на приложение</string>
+    <string name="text_no_internet">Необходимо подключение к сети Интернет</string>
+
+    <string name="btn_common_text">Общий</string>
+    <string name="btn_love_text">Любовный</string>
+    <string name="btn_business_text">Бизнес</string>
+
+    <string name="tab_today_text">Сегодня</string>
+    <string name="tab_tomorrow_text">Завтра</string>
+    <string name="tab_tomorrow2_text">Послезавтра</string>
+
+    <string name="aries_text">Овен</string>
+    <string name="taurus_text">Телец</string>
+    <string name="gemini_text">Близнецы</string>
+    <string name="cancer_text">Рак</string>
+    <string name="leo_text">Лев</string>
+    <string name="virgo_text">Дева</string>
+    <string name="libra_text">Весы</string>
+    <string name="scorpio_text">Скорпион</string>
+    <string name="sagittarius_text">Стрелец</string>
+    <string name="capricorn_text">Козерог</string>
+    <string name="aquarius_text">Водолей</string>
+    <string name="pisces_text">Рыбы</string>
+    <string name="sun_sign">Sun sign</string>
+</resources>

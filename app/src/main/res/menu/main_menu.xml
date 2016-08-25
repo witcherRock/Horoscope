@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/action_check_sun_sign"
+        android:title="@string/text_menu_check_sun_sign"
+        yourapp:showAsAction="always|collapseActionView"/>
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/text_menu_share"
+        yourapp:showAsAction="always"/>
+</menu>

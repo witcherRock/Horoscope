@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false">
+
+    <TableLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/tableLayout2">
+        <TableRow
+            android:id="@+id/tableRowFirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <NumberPicker
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/number_picker_day"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:layout_weight="1" />
+            <NumberPicker
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/number_picker_month"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:layout_weight="1" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRowSecond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageViewSunSignCheck"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/sun_sign"
+                android:layout_weight="1"
+                android:layout_margin="8dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRowThird"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_sun_sign"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:linksClickable="true"
+                android:autoLink="phone" />
+        </TableRow>
+    </TableLayout>
+
+
+
+
+</LinearLayout>
